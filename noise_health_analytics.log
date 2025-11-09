@@ -1,0 +1,215 @@
+2025-08-23 22:55:53,724 - __main__ - INFO - Starting Urban Noise Mental Health Analytics System
+2025-08-23 22:55:53,725 - __main__ - INFO - Environment setup completed
+2025-08-23 22:55:53,725 - __main__ - INFO - SoundscapeAnalyzer initialized with sample rate: 44100
+2025-08-23 22:55:53,726 - __main__ - INFO - MentalHealthDataProcessor initialized
+2025-08-23 22:55:53,726 - __main__ - INFO - EnvironmentalDataIntegrator initialized
+2025-08-23 22:55:53,726 - __main__ - INFO - ComprehensiveAnalyticsPipeline initialized
+2025-08-23 22:55:53,726 - __main__ - INFO - Starting comprehensive analysis pipeline...
+2025-08-23 22:55:53,726 - __main__ - INFO - Step 1: Loading and preprocessing data
+2025-08-23 22:55:53,726 - __main__ - INFO - Data file not found. Generating synthetic data for demonstration.
+2025-08-23 22:55:53,726 - __main__ - INFO - Generating 1000 synthetic data points...
+2025-08-23 22:55:53,746 - __main__ - INFO - Synthetic data generated successfully
+2025-08-23 22:55:53,764 - __main__ - INFO - Processed mental health data: 1000 records
+2025-08-23 22:55:53,846 - __main__ - INFO - Added temporal features
+2025-08-23 22:55:53,851 - __main__ - INFO - Added urban context features
+2025-08-23 22:55:53,852 - __main__ - INFO - Data preprocessing completed. Shape: (1000, 68)
+2025-08-23 22:55:53,853 - __main__ - INFO - Step 2: Exploratory Data Analysis
+2025-08-23 22:55:53,858 - __main__ - INFO - NoiseHealthAnalyzer initialized with 1000 records
+2025-08-23 22:55:57,090 - __main__ - INFO - Completed correlation analysis
+2025-08-23 22:55:58,583 - __main__ - INFO - Completed temporal pattern analysis
+2025-08-23 22:55:58,610 - __main__ - INFO - Completed statistical analysis
+2025-08-23 22:55:58,610 - __main__ - INFO - Step 3: Training Machine Learning Models
+2025-08-23 22:55:58,610 - __main__ - INFO - StressPredictionModels initialized with 1000 records
+2025-08-23 22:55:58,626 - __main__ - INFO - Prepared 54 features for modeling
+2025-08-23 22:55:58,647 - __main__ - INFO - Training random_forest model...
+2025-08-23 22:55:59,351 - __main__ - INFO - random_forest - R²: -0.0302, RMSE: 0.6453, MAE: 0.5273
+2025-08-23 22:55:59,351 - __main__ - INFO - Training gradient_boosting model...
+2025-08-23 22:56:00,329 - __main__ - INFO - gradient_boosting - R²: -0.1206, RMSE: 0.6730, MAE: 0.5473
+2025-08-23 22:56:00,329 - __main__ - INFO - Training xgboost model...
+2025-08-23 22:56:00,857 - __main__ - INFO - xgboost - R²: -0.2447, RMSE: 0.7093, MAE: 0.5854
+2025-08-23 22:56:00,858 - __main__ - INFO - Training ridge model...
+2025-08-23 22:56:00,875 - __main__ - INFO - ridge - R²: -0.0992, RMSE: 0.6666, MAE: 0.5369
+2025-08-23 22:56:00,875 - __main__ - INFO - Training svr model...
+2025-08-23 22:56:00,964 - __main__ - INFO - svr - R²: -0.1120, RMSE: 0.6705, MAE: 0.5411
+2025-08-23 22:56:00,964 - __main__ - INFO - Training neural network model...
+2025-08-23 22:56:11,785 - __main__ - INFO - neural_network - R²: -0.5380, RMSE: 0.7885, MAE: 0.6340
+2025-08-23 22:56:13,632 - __main__ - INFO - Model training completed successfully
+2025-08-23 22:56:14,280 - __main__ - INFO - Feature importance analysis completed
+2025-08-23 22:56:14,286 - __main__ - INFO - Prepared 54 features for modeling
+2025-08-23 22:56:14,287 - __main__ - INFO - Cross-validating random_forest...
+2025-08-23 22:56:17,925 - __main__ - INFO - Cross-validating gradient_boosting...
+2025-08-23 22:56:21,662 - __main__ - INFO - Cross-validating xgboost...
+2025-08-23 22:56:24,938 - __main__ - INFO - Cross-validating ridge...
+2025-08-23 22:56:24,996 - __main__ - INFO - Cross-validating svr...
+2025-08-23 22:56:25,659 - __main__ - INFO - Cross-validation analysis completed
+2025-08-23 22:56:25,660 - __main__ - INFO - Step 4: Training Ensemble Models
+2025-08-23 22:56:25,660 - __main__ - INFO - EnsemblePredictor initialized
+2025-08-23 22:56:25,666 - __main__ - INFO - Prepared 54 features for modeling
+2025-08-23 22:56:25,680 - __main__ - INFO - Training base model: rf
+2025-08-23 22:56:28,948 - __main__ - INFO - Training base model: gb
+2025-08-23 22:56:33,033 - __main__ - INFO - Training base model: xgb
+2025-08-23 22:56:36,750 - __main__ - INFO - Training base model: ridge
+2025-08-23 22:56:36,765 - __main__ - INFO - Stacking ensemble trained successfully
+2025-08-23 22:56:36,835 - __main__ - INFO - Ensemble Model - R²: -0.0187, RMSE: 0.6417
+2025-08-23 22:56:36,835 - __main__ - INFO - Step 5: Policy Impact Analysis
+2025-08-23 22:56:36,836 - __main__ - INFO - PolicyImpactSimulator initialized
+2025-08-23 22:56:36,836 - __main__ - INFO - Simulating policy: traffic_reduction_10%
+2025-08-23 22:56:36,839 - __main__ - INFO - Simulating policy: traffic_reduction_25%
+2025-08-23 22:56:36,841 - __main__ - INFO - Simulating policy: green_sound_barriers
+2025-08-23 22:56:36,843 - __main__ - INFO - Simulating policy: quiet_hours_enforcement
+2025-08-23 22:56:36,847 - __main__ - INFO - Simulating policy: electric_vehicle_incentives
+2025-08-23 22:56:36,848 - __main__ - INFO - Simulating policy: improved_road_surfaces
+2025-08-23 22:56:38,108 - __main__ - INFO - Policy simulation completed
+2025-08-23 22:56:38,110 - __main__ - INFO - Step 6: Generating Analysis Report
+2025-08-23 22:56:38,116 - __main__ - INFO - Analysis report generated successfully
+2025-08-23 22:56:38,116 - __main__ - INFO - Comprehensive analysis completed successfully!
+2025-08-23 22:56:38,118 - __main__ - INFO - Analysis completed successfully!
+2025-08-23 22:56:38,118 - __main__ - ERROR - Error in main execution: 'MentalHealthDataProcessor' object has no attribute 'df'
+2025-08-23 23:15:56,083 - __main__ - INFO - Starting Urban Noise Mental Health Analytics System
+2025-08-23 23:15:56,085 - __main__ - INFO - Environment setup completed
+2025-08-23 23:15:56,085 - __main__ - INFO - SoundscapeAnalyzer initialized with sample rate: 44100
+2025-08-23 23:15:56,085 - __main__ - INFO - MentalHealthDataProcessor initialized
+2025-08-23 23:15:56,085 - __main__ - INFO - EnvironmentalDataIntegrator initialized
+2025-08-23 23:15:56,093 - __main__ - INFO - ComprehensiveAnalyticsPipeline initialized
+2025-08-23 23:15:56,095 - __main__ - INFO - Starting comprehensive analysis pipeline...
+2025-08-23 23:15:56,096 - __main__ - INFO - Step 1: Loading and preprocessing data
+2025-08-23 23:15:56,096 - __main__ - INFO - Data file not found. Generating synthetic data for demonstration.
+2025-08-23 23:15:56,097 - __main__ - INFO - Generating 1000 synthetic data points...
+2025-08-23 23:15:56,144 - __main__ - INFO - Improved synthetic data generated successfully
+2025-08-23 23:15:56,172 - __main__ - INFO - Processed mental health data: 1000 records
+2025-08-23 23:15:56,203 - __main__ - INFO - Added temporal features
+2025-08-23 23:15:56,213 - __main__ - INFO - Added urban context features
+2025-08-23 23:15:56,213 - __main__ - INFO - Data preprocessing completed. Shape: (1000, 78)
+2025-08-23 23:15:56,214 - __main__ - INFO - Step 2: Exploratory Data Analysis
+2025-08-23 23:15:56,215 - __main__ - INFO - NoiseHealthAnalyzer initialized with 1000 records
+2025-08-23 23:15:58,535 - __main__ - INFO - Completed correlation analysis
+2025-08-23 23:16:00,068 - __main__ - INFO - Completed temporal pattern analysis
+2025-08-23 23:16:00,096 - __main__ - INFO - Completed statistical analysis
+2025-08-23 23:16:00,096 - __main__ - INFO - Step 3: Training Machine Learning Models
+2025-08-23 23:16:00,096 - __main__ - INFO - StressPredictionModels initialized with 1000 records
+2025-08-23 23:16:00,114 - __main__ - INFO - Prepared 28 features for improved modeling
+2025-08-23 23:16:00,125 - __main__ - INFO - Training random_forest model...
+2025-08-23 23:16:00,483 - __main__ - INFO - random_forest - R²: 0.0348, RMSE: 0.4790, MAE: 0.3791
+2025-08-23 23:16:00,483 - __main__ - INFO - Training gradient_boosting model...
+2025-08-23 23:16:00,995 - __main__ - INFO - gradient_boosting - R²: 0.0192, RMSE: 0.4828, MAE: 0.3789
+2025-08-23 23:16:00,995 - __main__ - INFO - Training xgboost model...
+2025-08-23 23:16:01,333 - __main__ - INFO - xgboost - R²: -0.1099, RMSE: 0.5136, MAE: 0.4061
+2025-08-23 23:16:01,333 - __main__ - INFO - Training ridge model...
+2025-08-23 23:16:01,349 - __main__ - INFO - ridge - R²: 0.0691, RMSE: 0.4704, MAE: 0.3785
+2025-08-23 23:16:01,350 - __main__ - INFO - Training svr model...
+2025-08-23 23:16:01,437 - __main__ - INFO - svr - R²: -0.1057, RMSE: 0.5127, MAE: 0.4125
+2025-08-23 23:16:01,437 - __main__ - INFO - Training neural network model...
+2025-08-23 23:16:06,918 - __main__ - INFO - neural_network - R²: -1.2232, RMSE: 0.7269, MAE: 0.5810
+2025-08-23 23:16:08,715 - __main__ - INFO - Model training completed successfully
+2025-08-23 23:16:09,261 - __main__ - INFO - Feature importance analysis completed
+2025-08-23 23:16:09,272 - __main__ - INFO - Prepared 28 features for improved modeling
+2025-08-23 23:16:09,273 - __main__ - INFO - Cross-validating random_forest...
+2025-08-23 23:16:11,294 - __main__ - INFO - Cross-validating gradient_boosting...
+2025-08-23 23:16:13,556 - __main__ - INFO - Cross-validating xgboost...
+2025-08-23 23:16:15,137 - __main__ - INFO - Cross-validating ridge...
+2025-08-23 23:16:15,177 - __main__ - INFO - Cross-validating svr...
+2025-08-23 23:16:15,757 - __main__ - INFO - Cross-validation analysis completed
+2025-08-23 23:16:15,757 - __main__ - INFO - Step 4: Training Ensemble Models
+2025-08-23 23:16:15,757 - __main__ - INFO - EnsemblePredictor initialized
+2025-08-23 23:16:15,770 - __main__ - INFO - Prepared 28 features for improved modeling
+2025-08-23 23:16:15,781 - __main__ - INFO - Training base model: rf
+2025-08-23 23:16:17,632 - __main__ - INFO - Training base model: gb
+2025-08-23 23:16:19,742 - __main__ - INFO - Training base model: xgb
+2025-08-23 23:16:21,487 - __main__ - INFO - Training base model: ridge
+2025-08-23 23:16:21,504 - __main__ - INFO - Stacking ensemble trained successfully
+2025-08-23 23:16:21,580 - __main__ - INFO - Ensemble Model - R²: 0.0689, RMSE: 0.4704
+2025-08-23 23:16:21,581 - __main__ - INFO - Step 5: Policy Impact Analysis
+2025-08-23 23:16:21,581 - __main__ - INFO - PolicyImpactSimulator initialized
+2025-08-23 23:16:21,581 - __main__ - INFO - Simulating policy: traffic_reduction_10%
+2025-08-23 23:16:21,587 - __main__ - INFO - Simulating policy: traffic_reduction_25%
+2025-08-23 23:16:21,590 - __main__ - INFO - Simulating policy: green_sound_barriers
+2025-08-23 23:16:21,592 - __main__ - INFO - Simulating policy: quiet_hours_enforcement
+2025-08-23 23:16:21,593 - __main__ - INFO - Simulating policy: electric_vehicle_incentives
+2025-08-23 23:16:21,594 - __main__ - INFO - Simulating policy: improved_road_surfaces
+2025-08-23 23:16:22,814 - __main__ - INFO - Policy simulation completed
+2025-08-23 23:16:22,817 - __main__ - INFO - Step 6: Generating Analysis Report
+2025-08-23 23:16:22,822 - __main__ - INFO - Analysis report generated successfully
+2025-08-23 23:16:22,823 - __main__ - INFO - Comprehensive analysis completed successfully!
+2025-08-23 23:16:22,828 - __main__ - INFO - Analysis completed successfully!
+2025-08-23 23:16:22,828 - __main__ - INFO - InteractiveDashboard initialized
+2025-08-23 23:16:23,121 - __main__ - INFO - Created 6 interactive visualizations
+2025-08-23 23:16:24,213 - __main__ - INFO - Saved timeseries dashboard to results/dashboard_timeseries.html
+2025-08-23 23:16:24,239 - __main__ - INFO - Saved correlation dashboard to results/dashboard_correlation.html
+2025-08-23 23:16:24,272 - __main__ - INFO - Saved scatter dashboard to results/dashboard_scatter.html
+2025-08-23 23:16:24,303 - __main__ - INFO - Saved boxplot dashboard to results/dashboard_boxplot.html
+2025-08-23 23:16:24,333 - __main__ - INFO - Saved performance dashboard to results/dashboard_performance.html
+2025-08-23 23:16:24,362 - __main__ - INFO - Saved policy dashboard to results/dashboard_policy.html
+2025-10-08 10:08:55,246 - __main__ - INFO - Starting Urban Noise Mental Health Analytics System
+2025-10-08 10:08:55,246 - __main__ - INFO - Environment setup completed
+2025-10-08 10:08:55,246 - __main__ - INFO - SoundscapeAnalyzer initialized with sample rate: 44100
+2025-10-08 10:08:55,246 - __main__ - INFO - MentalHealthDataProcessor initialized
+2025-10-08 10:08:55,246 - __main__ - INFO - EnvironmentalDataIntegrator initialized
+2025-10-08 10:08:55,246 - __main__ - INFO - ComprehensiveAnalyticsPipeline initialized
+2025-10-08 10:08:55,246 - __main__ - INFO - Starting comprehensive analysis pipeline...
+2025-10-08 10:08:55,246 - __main__ - INFO - Step 1: Loading and preprocessing data
+2025-10-08 10:08:55,246 - __main__ - INFO - Data file not found. Generating synthetic data for demonstration.
+2025-10-08 10:08:55,246 - __main__ - INFO - Generating 1000 synthetic data points...
+2025-10-08 10:08:55,274 - __main__ - INFO - Improved synthetic data generated successfully
+2025-10-08 10:08:55,287 - __main__ - INFO - Processed mental health data: 1000 records
+2025-10-08 10:08:55,297 - __main__ - INFO - Added temporal features
+2025-10-08 10:08:55,299 - __main__ - INFO - Added urban context features
+2025-10-08 10:08:55,303 - __main__ - INFO - Data preprocessing completed. Shape: (1000, 78)
+2025-10-08 10:08:55,303 - __main__ - INFO - Step 2: Exploratory Data Analysis
+2025-10-08 10:08:55,303 - __main__ - INFO - NoiseHealthAnalyzer initialized with 1000 records
+2025-10-08 10:09:02,343 - __main__ - INFO - Completed correlation analysis
+2025-10-08 10:09:04,046 - __main__ - INFO - Completed temporal pattern analysis
+2025-10-08 10:09:04,063 - __main__ - INFO - Completed statistical analysis
+2025-10-08 10:09:04,063 - __main__ - INFO - Step 3: Training Machine Learning Models
+2025-10-08 10:09:04,063 - __main__ - INFO - StressPredictionModels initialized with 1000 records
+2025-10-08 10:09:04,095 - __main__ - INFO - Prepared 28 features for improved modeling
+2025-10-08 10:09:04,118 - __main__ - INFO - Training random_forest model...
+2025-10-08 10:09:04,472 - __main__ - INFO - random_forest - R²: 0.0188, RMSE: 0.4839, MAE: 0.3840
+2025-10-08 10:09:04,473 - __main__ - INFO - Training gradient_boosting model...
+2025-10-08 10:09:05,036 - __main__ - INFO - gradient_boosting - R²: -0.0026, RMSE: 0.4892, MAE: 0.3870
+2025-10-08 10:09:05,036 - __main__ - INFO - Training xgboost model...
+2025-10-08 10:09:05,588 - __main__ - INFO - xgboost - R²: -0.1402, RMSE: 0.5217, MAE: 0.4151
+2025-10-08 10:09:05,588 - __main__ - INFO - Training ridge model...
+2025-10-08 10:09:05,590 - __main__ - INFO - ridge - R²: 0.0749, RMSE: 0.4699, MAE: 0.3775
+2025-10-08 10:09:05,590 - __main__ - INFO - Training svr model...
+2025-10-08 10:09:05,687 - __main__ - INFO - svr - R²: -0.0829, RMSE: 0.5084, MAE: 0.4088
+2025-10-08 10:09:05,687 - __main__ - INFO - Training neural network model...
+2025-10-08 10:09:16,788 - __main__ - INFO - neural_network - R²: -0.3889, RMSE: 0.5758, MAE: 0.4585
+2025-10-08 10:09:19,894 - __main__ - INFO - Model training completed successfully
+2025-10-08 10:09:20,799 - __main__ - INFO - Feature importance analysis completed
+2025-10-08 10:09:20,815 - __main__ - INFO - Prepared 28 features for improved modeling
+2025-10-08 10:09:20,815 - __main__ - INFO - Cross-validating random_forest...
+2025-10-08 10:09:22,648 - __main__ - INFO - Cross-validating gradient_boosting...
+2025-10-08 10:09:25,532 - __main__ - INFO - Cross-validating xgboost...
+2025-10-08 10:09:26,747 - __main__ - INFO - Cross-validating ridge...
+2025-10-08 10:09:26,778 - __main__ - INFO - Cross-validating svr...
+2025-10-08 10:09:27,451 - __main__ - INFO - Cross-validation analysis completed
+2025-10-08 10:09:27,451 - __main__ - INFO - Step 4: Training Ensemble Models
+2025-10-08 10:09:27,451 - __main__ - INFO - EnsemblePredictor initialized
+2025-10-08 10:09:27,471 - __main__ - INFO - Prepared 28 features for improved modeling
+2025-10-08 10:09:27,481 - __main__ - INFO - Training base model: rf
+2025-10-08 10:09:29,217 - __main__ - INFO - Training base model: gb
+2025-10-08 10:09:32,070 - __main__ - INFO - Training base model: xgb
+2025-10-08 10:09:33,326 - __main__ - INFO - Training base model: ridge
+2025-10-08 10:09:33,339 - __main__ - INFO - Stacking ensemble trained successfully
+2025-10-08 10:09:33,399 - __main__ - INFO - Ensemble Model - R²: 0.0805, RMSE: 0.4685
+2025-10-08 10:09:33,400 - __main__ - INFO - Step 5: Policy Impact Analysis
+2025-10-08 10:09:33,400 - __main__ - INFO - PolicyImpactSimulator initialized
+2025-10-08 10:09:33,400 - __main__ - INFO - Simulating policy: traffic_reduction_10%
+2025-10-08 10:09:33,402 - __main__ - INFO - Simulating policy: traffic_reduction_25%
+2025-10-08 10:09:33,403 - __main__ - INFO - Simulating policy: green_sound_barriers
+2025-10-08 10:09:33,403 - __main__ - INFO - Simulating policy: quiet_hours_enforcement
+2025-10-08 10:09:33,405 - __main__ - INFO - Simulating policy: electric_vehicle_incentives
+2025-10-08 10:09:33,407 - __main__ - INFO - Simulating policy: improved_road_surfaces
+2025-10-08 10:09:35,061 - __main__ - INFO - Policy simulation completed
+2025-10-08 10:09:35,065 - __main__ - INFO - Step 6: Generating Analysis Report
+2025-10-08 10:09:35,065 - __main__ - INFO - Analysis report generated successfully
+2025-10-08 10:09:35,065 - __main__ - INFO - Comprehensive analysis completed successfully!
+2025-10-08 10:09:35,065 - __main__ - INFO - Analysis completed successfully!
+2025-10-08 10:09:35,065 - __main__ - INFO - InteractiveDashboard initialized
+2025-10-08 10:09:35,833 - __main__ - INFO - Created 6 interactive visualizations
+2025-10-08 10:09:35,938 - __main__ - INFO - Saved timeseries dashboard to results/dashboard_timeseries.html
+2025-10-08 10:09:35,980 - __main__ - INFO - Saved correlation dashboard to results/dashboard_correlation.html
+2025-10-08 10:09:36,031 - __main__ - INFO - Saved scatter dashboard to results/dashboard_scatter.html
+2025-10-08 10:09:36,065 - __main__ - INFO - Saved boxplot dashboard to results/dashboard_boxplot.html
+2025-10-08 10:09:36,100 - __main__ - INFO - Saved performance dashboard to results/dashboard_performance.html
+2025-10-08 10:09:36,128 - __main__ - INFO - Saved policy dashboard to results/dashboard_policy.html

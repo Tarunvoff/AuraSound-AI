@@ -1,0 +1,128 @@
+{
+  "data_summary": {
+    "total_records": 1250,
+    "features_count": 87,
+    "data_period": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    },
+    "missing_values_percentage": 2.3
+  },
+  "model_performance": {
+    "optimized_rf": {
+      "r2": 0.947,
+      "rmse": 0.089,
+      "mae": 0.065,
+      "cv_r2_mean": 0.942,
+      "cv_rmse_mean": 0.092
+    },
+    "optimized_xgb": {
+      "r2": 0.963,
+      "rmse": 0.074,
+      "mae": 0.052,
+      "cv_r2_mean": 0.958,
+      "cv_rmse_mean": 0.078
+    },
+    "optimized_lgb": {
+      "r2": 0.956,
+      "rmse": 0.082,
+      "mae": 0.058,
+      "cv_r2_mean": 0.951,
+      "cv_rmse_mean": 0.085
+    },
+    "optimized_catboost": {
+      "r2": 0.961,
+      "rmse": 0.076,
+      "mae": 0.054,
+      "cv_r2_mean": 0.957,
+      "cv_rmse_mean": 0.079
+    },
+    "advanced_nn": {
+      "r2": 0.952,
+      "rmse": 0.086,
+      "mae": 0.061,
+      "cv_r2_mean": 0.948,
+      "cv_rmse_mean": 0.089
+    },
+    "voting_ensemble": {
+      "r2": 0.968,
+      "rmse": 0.068,
+      "mae": 0.048,
+      "cv_r2_mean": 0.964,
+      "cv_rmse_mean": 0.071
+    },
+    "weighted_ensemble": {
+      "r2": 0.971,
+      "rmse": 0.064,
+      "mae": 0.045,
+      "cv_r2_mean": 0.967,
+      "cv_rmse_mean": 0.067
+    }
+  },
+  "feature_importance": {
+    "heart_rate_variability": 0.234,
+    "spl_rms": 0.187,
+    "spectral_centroid_mean": 0.156,
+    "cortisol_level": 0.142,
+    "loudness": 0.128,
+    "roughness": 0.115,
+    "mfcc_3_mean": 0.098,
+    "age_noise_interaction": 0.087,
+    "wind_speed": 0.076,
+    "daily_traffic_count": 0.065,
+    "sharpness": 0.058,
+    "harmonic_energy": 0.052,
+    "temperature": 0.047,
+    "spectral_bandwidth_mean": 0.043,
+    "zcr_mean": 0.038
+  },
+  "statistical_tests": {
+    "correlation_test": {
+      "noise_stress_correlation": -0.342,
+      "p_value": 0.0001,
+      "significant": true
+    },
+    "t_test": {
+      "high_vs_low_noise": {
+        "effect_size": 0.87,
+        "p_value": 0.0001,
+        "significant": true
+      }
+    }
+  },
+  "policy_impact": {
+    "quiet_hours": {
+      "stress_reduction": 8.5,
+      "cost_per_person": 20,
+      "cost_effectiveness": 2.35,
+      "noise_reduction_db": 4.2
+    },
+    "green_barriers": {
+      "stress_reduction": 6.3,
+      "cost_per_person": 30,
+      "cost_effectiveness": 4.76,
+      "noise_reduction_db": 3.1
+    },
+    "traffic_reduction_10": {
+      "stress_reduction": 4.2,
+      "cost_per_person": 50,
+      "cost_effectiveness": 11.9,
+      "noise_reduction_db": 2.0
+    },
+    "traffic_reduction_25": {
+      "stress_reduction": 10.8,
+      "cost_per_person": 150,
+      "cost_effectiveness": 13.89,
+      "noise_reduction_db": 5.2
+    },
+    "improved_road_surfaces": {
+      "stress_reduction": 5.1,
+      "cost_per_person": 75,
+      "cost_effectiveness": 14.71,
+      "noise_reduction_db": 2.5
+    }
+  },
+  "best_model": "weighted_ensemble",
+  "best_r2": 0.971,
+  "generated_at": "2025-11-08 18:58:24"
+}

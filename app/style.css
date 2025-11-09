@@ -1,0 +1,74 @@
+/* Main app background */
+.stApp {
+    background: #0E1117 !important;
+}
+
+/* Sidebar */
+.css-1d391kg, [data-testid="stSidebar"] {
+    background-color: #1E1E1E !important;
+}
+
+/* Text colors */
+h1, .css-10trblm {
+    color: white !important;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #E0E0E0 !important;
+}
+
+p, .css-1b6t8kw {
+    color: #FAFAFA !important;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #4C4C4C !important;
+    color: white !important;
+    border: none !important;
+}
+
+/* File uploader */
+.css-1x8cf1d {
+    background-color: #1E1E1E !important;
+    color: white !important;
+}
+
+/* Containers */
+.css-12oz5g7 {
+    background-color: #1E1E1E !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Input fields */
+.stTextInput>div>div>input {
+    background-color: #1E1E1E !important;
+    color: white !important;
+}
+
+/* Select boxes */
+.stSelectbox>div>div>select {
+    background-color: #1E1E1E !important;
+    color: white !important;
+}
+
+/* Dataframe */
+.dataframe {
+    background-color: #1E1E1E !important;
+    color: white !important;
+}
+
+/* Plots */
+.js-plotly-plot {
+    background-color: #1E1E1E !important;
+}
+
+/* Main content area */
+.main .block-container {
+    background-color: #0E1117 !important;
+}
+
+/* Remove default white background */
+div[data-testid="stAppViewContainer"] {
+    background: none !important;
+}
