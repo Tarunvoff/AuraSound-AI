@@ -1,4 +1,4 @@
-# 🔊 Noise & Mental Health Analytics Platform
+# 🔊AURASOUND AI- Noise & Mental Health Analytics Platform
 
 A comprehensive, production-ready data science and Streamlit application that analyzes and visualizes the complex relationship between environmental noise pollution and mental health outcomes. This platform combines advanced machine learning models, sophisticated audio processing, and an intuitive user interface for stakeholders to explore data, gain insights, and make data-driven decisions.
 
